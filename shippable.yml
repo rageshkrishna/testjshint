@@ -1,0 +1,5 @@
+language: node
+build:
+  ci:
+    - jshint .
+

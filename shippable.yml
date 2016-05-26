@@ -4,5 +4,5 @@ node_js:
 build:
   ci:
     - npm install -g jshint
-    - jshint .
+    - jshint lib
 

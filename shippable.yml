@@ -3,6 +3,11 @@ node_js:
   - 0.10.24
 build:
   ci:
+    - aws configure list
     - npm install -g jshint
     - jshint lib
 
+integrations:
+  deploy:
+    - integrationName: ragesh-shippable-aws
+      type: aws
